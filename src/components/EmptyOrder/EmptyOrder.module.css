@@ -1,0 +1,9 @@
+.message {
+  margin: 0;
+  padding: 24px;
+  text-align: center;
+  color: #7a6658;
+  background-color: #fff8f0;
+  border: 1px dashed #e6d5c3;
+  border-radius: 8px;
+}

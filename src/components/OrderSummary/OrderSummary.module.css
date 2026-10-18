@@ -1,0 +1,20 @@
+.container {
+  padding: 16px;
+  background-color: #fff;
+  border: 1px solid #e6d5c3;
+  border-radius: 8px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 6px 0;
+  border-bottom: 1px dashed #e6d5c3;
+}
+
+.row:last-child {
+  border-bottom: none;
+  padding-top: 12px;
+  font-size: 20px;
+}

@@ -1,0 +1,18 @@
+.button {
+  align-self: center;
+  padding: 10px 24px;
+  font-size: 16px;
+  color: #b3261e;
+  background-color: transparent;
+  border: 1px solid #b3261e;
+  border-radius: 6px;
+  cursor: pointer;
+  transition:
+    background-color 0.2s,
+    color 0.2s;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #b3261e;
+}
