@@ -21,7 +21,7 @@ if(operator==="+"){setOrderedDrinks((prevOrderedDrinks)=>({
   ...prevOrderedDrinks,
   [drink] : prevOrderedDrinks[drink]+1
 }))}
-else if (orderedDrinks[drink]!=0){setOrderedDrinks((prevOrderedDrinks)=>({
+else if (orderedDrinks[drink]!==0){setOrderedDrinks((prevOrderedDrinks)=>({
   ...prevOrderedDrinks,
   [drink] : prevOrderedDrinks[drink]-1
 }))}

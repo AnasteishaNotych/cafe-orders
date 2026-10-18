@@ -12,7 +12,7 @@ function OrderSummary({quantity, orderedDrinks}:OrderSummaryProps) {
           acc+=orderedDrinks[item]*menuCost[item];
           return acc;
         }, 0 );
-  const sumDiscount =totalSum>= 300 ? (totalSum/10) : 0 ;
+  const sumDiscount =totalSum> 300 ? (totalSum/10) : 0 ;
   return (
     <div className={css.container}>
       <p className={css.row}>

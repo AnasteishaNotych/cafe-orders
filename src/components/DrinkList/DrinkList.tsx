@@ -15,7 +15,7 @@ function DrinkList({orderedDrinks, onOrder} : DrinkListProps) {
         <span className={css.name}>{item.slice(0,1).toUpperCase()+item.slice(1).toLowerCase()}</span>
         <span className={css.price}> {menuCost[item]} UAH</span>
         <div className={css.controls}>
-        {orderedDrinks[item]>0 && <button onClick={()=>onOrder(item, "-")} className={css.button}>−</button>}
+        {<button onClick={()=>onOrder(item, "-")} className={css.button} disabled={orderedDrinks[item]===0}>−</button>}
           <span className={css.count}>{orderedDrinks[item]}</span>
           <button onClick={()=>onOrder(item, "+")} className={css.button}>+</button>
         </div>
